@@ -1,0 +1,212 @@
+/* ### Primary
+
+- Blue: hsl(246, 80%, 60%)
+
+- Light red (work): hsl(15, 100%, 70%)
+- Soft blue (play): hsl(195, 74%, 62%)
+- Light red (study): hsl(348, 100%, 68%)
+- Lime green (exercise): hsl(145, 58%, 55%)
+- Violet (social): hsl(264, 64%, 52%)
+- Soft orange (self care): hsl(43, 84%, 65%)
+
+### Neutral
+
+- Very dark blue: hsl(226, 43%, 10%)
+- Dark blue: hsl(235, 46%, 20%)
+- Desaturated blue: hsl(235, 45%, 61%)
+- Pale Blue: hsl(236, 100%, 87%) */
+
+body {
+  background-color: hsl(226, 43%, 10%);
+  font-family: Rubik;
+}
+
+.grid-container {
+  display: grid;
+  gap: 2rem;
+}
+
+.card-br {
+  border-radius: 1rem;
+}
+
+#jeremy-robson-card {
+  background-color: hsl(235, 46%, 20%);
+}
+
+#profile-photo {
+  border: white 0.25rem solid;
+  border-radius: 50%;
+  width: 4.6rem;
+  height: 4.6rem;
+}
+
+.profile-card {
+  background-color: hsl(246, 80%, 60%);
+  display: flex;
+  padding: 30px;
+  gap: 1.5rem;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.75rem;
+}
+
+.name-text {
+  color: white;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.secondary-text {
+  color: white;
+  opacity: 50%;
+}
+
+.view-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+  font-size: 1.3rem;
+  color: hsl(236, 100%, 87%);
+}
+
+.toggle-views:hover {
+  color: white;
+  opacity: 100%;
+}
+
+.activity-card {
+  background-color: hsl(235, 46%, 20%);
+  margin-top: 40px;
+  padding: 1.5rem;
+}
+
+.activity-card-row-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.85rem;
+}
+
+.activity-card-row-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity-name {
+  font-weight: 450;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.activity-duration {
+  color: white;
+  font-size: 2.1rem;
+}
+
+.activity-dots {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.activity-last-weekly-score {
+  color: hsl(236, 100%, 87%);
+  padding-top: 1rem;
+}
+
+#work {
+  background-image: url("./images/icon-work.svg");
+  background-repeat: no-repeat;
+  background-position: right -11%;
+  background-color: hsl(15, 100%, 70%);
+}
+
+#play {
+  background-image: url("./images/icon-play.svg");
+  background-repeat: no-repeat;
+  background-position: right -11%;
+  background-color: hsl(195, 74%, 62%);
+}
+
+#study {
+  background-image: url("./images/icon-study.svg");
+  background-repeat: no-repeat;
+  background-position: right -11%;
+  background-color: hsl(348, 100%, 68%);
+}
+
+#exercise {
+  background-image: url("./images/icon-exercise.svg");
+  background-repeat: no-repeat;
+  background-position: right -11%;
+  background-color: hsl(145, 58%, 55%);
+}
+
+#social {
+  background-image: url("./images/icon-social.svg");
+  background-repeat: no-repeat;
+  background-position: right -11%;
+  background-color: hsl(264, 64%, 52%);
+}
+
+#self-care {
+  background-image: url("./images/icon-self-care.svg");
+  background-repeat: no-repeat;
+  background-position: right -11%;
+  background-color: hsl(43, 84%, 65%);
+}
+
+@media (min-width: 970px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #jeremy-robson-card {
+    grid-row: span 2;
+  }
+
+  .profile-card {
+    padding: 2.5rem 1.5rem 6rem;
+    flex-direction: column;
+  }
+
+  .view-card {
+    height: 7rem;
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+  }
+
+  .activity-card {
+    background-color: hsl(235, 46%, 20%);
+    margin-top: 40px;
+    padding: 2.5rem;
+  }
+
+  .activity-card-row-2 {
+    flex-flow: column;
+  }
+
+  .name-text {
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name-text-first-name {
+    flex-basis: 100%;
+  }
+}

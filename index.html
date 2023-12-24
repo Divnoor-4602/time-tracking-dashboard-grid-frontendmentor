@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="grid-container">
+      <div id="jeremy-robson-card" class="card-br">
+        <div class="profile-card card-br">
+          <img
+            src="./images/image-jeremy.png"
+            alt="jeremy-robson-pfp"
+            id="profile-photo"
+          />
+          <div class="profile-details">
+            <span class="secondary-text">Report for</span>
+            <span class="name-text">
+              <span class="name-text-first-name">Jeremy</span>
+              Robson</span
+            >
+          </div>
+        </div>
+        <div class="view-card">
+          <div class="toggle-views" id="daily">Daily</div>
+          <div class="toggle-views" id="weekly">Weekly</div>
+          <div class="toggle-views" id="monthly">Monthly</div>
+        </div>
+      </div>
+      <div class="activities card-br" id="work">
+        <div class="activity-card card-br">
+          <div class="activity-card-row-1">
+            <div class="activity-name">Work</div>
+            <div class="activity-dots">...</div>
+          </div>
+          <div class="activity-card-row-2">
+            <div class="activity-duration">32hrs</div>
+            <div class="activity-last-weekly-score">Last Week - 36hrs</div>
+          </div>
+        </div>
+      </div>
+      <div class="activities card-br" id="play">
+        <div class="activity-card card-br">
+          <div class="activity-card-row-1">
+            <div class="activity-name">Play</div>
+            <div class="activity-dots">...</div>
+          </div>
+          <div class="activity-card-row-2">
+            <div class="activity-duration">10hrs</div>
+            <div class="activity-last-weekly-score">Last Week - 8hrs</div>
+          </div>
+        </div>
+      </div>
+      <div class="activities card-br" id="study">
+        <div class="activity-card card-br">
+          <div class="activity-card-row-1">
+            <div class="activity-name">Study</div>
+            <div class="activity-dots">...</div>
+          </div>
+          <div class="activity-card-row-2">
+            <div class="activity-duration">4hrs</div>
+            <div class="activity-last-weekly-score">Last Week - 7hrs</div>
+          </div>
+        </div>
+      </div>
+      <div class="activities card-br" id="exercise">
+        <div class="activity-card card-br">
+          <div class="activity-card-row-1">
+            <div class="activity-name">Work</div>
+            <div class="activity-dots">...</div>
+          </div>
+          <div class="activity-card-row-2">
+            <div class="activity-duration">4hrs</div>
+            <div class="activity-last-weekly-score">Last Week - 5hrs</div>
+          </div>
+        </div>
+      </div>
+      <div class="activities card-br" id="social">
+        <div class="activity-card card-br">
+          <div class="activity-card-row-1">
+            <div class="activity-name">Work</div>
+            <div class="activity-dots">...</div>
+          </div>
+          <div class="activity-card-row-2">
+            <div class="activity-duration">5hrs</div>
+            <div class="activity-last-weekly-score">Last Week - 10hrs</div>
+          </div>
+        </div>
+      </div>
+      <div class="activities card-br" id="self-care">
+        <div class="activity-card card-br">
+          <div class="activity-card-row-1">
+            <div class="activity-name">Work</div>
+            <div class="activity-dots">...</div>
+          </div>
+          <div class="activity-card-row-2">
+            <div class="activity-duration">2hrs</div>
+            <div class="activity-last-weekly-score">Last Week - 2hrs</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
