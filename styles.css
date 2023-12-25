@@ -210,3 +210,7 @@ body {
     flex-basis: 100%;
   }
 }
+
+.button-press {
+  color: white;
+}
