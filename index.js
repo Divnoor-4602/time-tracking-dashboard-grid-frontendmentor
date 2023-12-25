@@ -1,4 +1,4 @@
-import data from "./data.json" assert { type: "json" };
+import data from "./data.js";
 // importing the data.json file to our js file to use the data
 
 function changeButtonColor(buttonId) {
