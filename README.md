@@ -1,7 +1,3 @@
-Certainly! Here's a README template tailored for a time tracking grid project built using HTML grid, CSS, and jQuery in JavaScript:
-
----
-
 # Time Tracking Grid - Project Overview
 
 This repository contains my solution for the Time Tracking Grid project, inspired by the challenge on Frontend Mentor. This project aimed to create a time tracking grid using HTML grid for layout, CSS for styling, and jQuery in JavaScript for interactive features.
@@ -14,7 +10,8 @@ The challenge was to design and implement a time tracking grid that provides a u
 
 ### Screenshot
 
-![Screenshot](<./![grid](image.png)>)
+![Alt text](image-1.png)
+![Alt text](image-2.png)
 
 ### Built with
 
